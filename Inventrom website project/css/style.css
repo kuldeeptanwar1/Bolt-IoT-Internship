@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#nav-bar{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    padding: 15px 0;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex; 
+    margin-right: 3rem;
+    margin-top: 2rem; 
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.links a{
+    color: #0a0a0a;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+
+.links a:hover{
+    background-color: #e6e3e3;
+}
+
+#main{
+    background-image: url("../image/background-image.jpg");
+    object-fit: cover;
+    height: 750px;
+    width: 100%;
+}
+
+.main-text{
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+
+.main-text p{
+    font-size: 30px;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.main-text a{
+    color: white;
+}
+
+.main-text a:hover{
+    color: #dad0d0;
+}
+
+#about{
+    padding: 3rem 0;
+    background-color: white;
+}
+
+#about h2{
+    text-align: center;
+    margin-top: 3rem;
+    margin :10px 0px;
+    color: #139139;
+}
+
+#about>p{
+    text-align: center;
+    margin:3rem 0 3rem 3rem;
+}
+
+.about-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card{
+    flex: 1;
+    max-width: 500px;
+    padding-left: 25px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.about-card h4{
+    margin: 20px 0;
+}
+
+#awards{
+     margin: 3rem 0rem;
+}
+
+#awards h2{
+    text-align: center;
+    margin: 3rem 0;
+    padding-top: 30px;
+    color: #139139;
+}
+
+.award-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.awd{
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+}
+
+.awd img{
+    width: 100%
+}
+
+.awd h4{
+    margin: 20px 0;
+}
+
+.awd p{
+    color: grey;
+    font-size: 12px;
+}
+
+#contact{
+    margin: 3rem 0;
+}
+
+#contact h2{
+    text-align: center;
+    color: #139139;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+}
+
+.contact-card{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.form{
+    flex: 1;
+    max-width: 500px;
+}
+
+.contact-info{
+    flex: 1;
+    max-width: 500px;
+}
+
+.contact-info h4{
+    margin-bottom: 20px;
+    color: rgb(60, 60, 60);
+}
+
+.contact-info p{
+    color: rgb(60, 60, 60);
+    font-size: 15px;
+}
+
+.contact{
+    display: flex;
+    margin: 15px 0;
+}
+
+.contact-info span img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contactus-text{
+    font-size: 15px;
+    color: rgb(60, 60, 60);
+    margin-bottom: 5px;   
+ }
+
+.footer-content{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: #139139;
+}
+
+.footer-text{
+    color: white;
+    text-align: center;
+    flex: 1;
+}
+
+.social-media-logo{
+   flex: 1;
+}
+
+.social-media-logo>ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media-logo li a{
+    color: white;
+}
+
+.up-arrow{
+    height: 20px;
+    width: 20px;
+}
+
+
+
